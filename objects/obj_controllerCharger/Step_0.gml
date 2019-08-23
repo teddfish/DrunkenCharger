@@ -43,19 +43,3 @@ else if (y < 5)
 	gravity = 0;
 	vspeed = 0;
 }
-
-//x = clamp(x, 50, room_width - 50);
-//y = clamp(y, 50, room_height - 50);
-
-//targetX = random_range(x - 8, x + 8)
-//if (targetX < x && !isLeft)
-//{
-//	isLeft = true;
-//	targetX = targetX;
-//}
-
-//if (isLeft && alarm_get(1)){
-//	isLeft = false;
-//	targetX = random_range(x, x + 8)
-//}
-
