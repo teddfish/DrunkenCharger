@@ -48,3 +48,7 @@ else if (y < 5)
 	gravity = 0;
 	vspeed = 0;
 }
+
+if (mouse_check_button_pressed(mb_right) || gamepad_button_check_pressed(0, gp_shoulderrb)){
+	state = "steady";
+}

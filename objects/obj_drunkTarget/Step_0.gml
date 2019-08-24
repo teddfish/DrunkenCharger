@@ -3,3 +3,8 @@ gravity = max(gravVal, 0.01*point_distance(x, y, obj_controllerCharger.targetX, 
 
 vspeed= clamp(vspeed, -maxSpeed, maxSpeed)
 hspeed= clamp(hspeed, -maxSpeed, maxSpeed)
+
+if (state == "steady"){
+	gravVal = 0.02
+	maxSpeed = 0.5
+}

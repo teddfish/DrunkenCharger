@@ -4,10 +4,14 @@ gravity = max(gravVal, 0.01*point_distance(x, y, targX, targY))
 vspeed= clamp(vspeed, -maxSpeed, maxSpeed)
 hspeed= clamp(hspeed, -maxSpeed, maxSpeed)
 
-x = clamp(x, 50, room_width - 50)
-y = clamp(y, 30, 50)
+x = clamp(x, 30, room_width - 30)
+y = clamp(y, 20, 50)
 
 
+if (state == "steady")
+{
+	gravVal = 0.01
+	maxSpeed = 0.5
+	wobbleTime = 300
+}
 
-
-show_debug_message(y)

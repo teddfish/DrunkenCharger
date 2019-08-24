@@ -4,3 +4,5 @@ gravVal = 0.05
 
 gravity = gravVal
 maxSpeed = 1
+
+state = "normal";
