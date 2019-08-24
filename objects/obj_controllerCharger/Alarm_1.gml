@@ -5,13 +5,13 @@ alarm_set(1,random_range(nextX-10, nextX+10))
 if (isLeft)
 {
 	isLeft = false;
-	targetX = random_range(x+2, x+8)
+	targetX = random_range(2, 8)
 }
 
 else{
 	isLeft = true;
-	targetX = random_range(x-8, x-2)
+	targetX = random_range(-8, -2)
 }
 
 
-targetY = random_range(y-8, y+8)
+targetY = random_range(-8, 8)
