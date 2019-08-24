@@ -1,4 +1,6 @@
-if (place_meeting(x, y, obj_phone) && alarm_get(0)){
+if (place_meeting(x, y, obj_phone)){
 	x = x 
-	y = y + 45
+	y = lerp(y, y + 50, lerpVlue)
+	obj_controllerCharger.y = lerp(obj_controllerCharger.y,
+	obj_controllerCharger.y + 50, lerpVlue)
 }
