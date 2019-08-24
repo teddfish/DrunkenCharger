@@ -6,14 +6,14 @@ randMov = 0.15
 randTime = 30
 nextX = 60
 
-targetX = x
-targetY = y
-
-
+targetX = 0
+targetY = 0
 
 randvmov=0
 randhmov=0
 gamepad_set_axis_deadzone(0, 0.7);
+isGamepadConnected = (gamepad_get_device_count() > 0);
+mouseSensivity = 3
 
 dragQ = 5;
 
@@ -23,3 +23,6 @@ alarm_set(0, randTime)
 isLeft = false;
 
 alarm_set(1, nextX)
+
+centerX = window_get_width()/2
+centerY = window_get_height()/2

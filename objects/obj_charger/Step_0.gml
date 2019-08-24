@@ -31,8 +31,8 @@ lerpVal = random_range(0.02, 0.1)
 
 
 inst = obj_drunkTarget;
-x = lerp(x, inst.x, lerpVal)
-y = lerp(y, inst.y, lerpVal)
+x = lerp(x, obj_controllerCharger.x+inst.x, lerpVal)
+y = lerp(y, obj_controllerCharger.y+inst.y, lerpVal)
 //mp_potential_step_object(inst.x, inst.y, 10, obj_controller1);
 
 
