@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "8e7c91a8-ea7e-41c1-bf16-2e1b526ad8d4",
+            "Value": {
+                "id": "13976f1f-1de2-4e45-a953-7e0e3714f746",
+                "resourcePath": "objects\\obj_fakeCharger\\obj_fakeCharger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "94cc3d1b-ba4c-4215-afb2-485ab1d8444d",
             "Value": {
                 "id": "c55365e9-aec2-4372-96af-205ee282b177",
