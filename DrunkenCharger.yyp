@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "11d305f2-09ac-45d7-b8d3-bfbc23209d41",
+            "Value": {
+                "id": "d2af6c39-1aa9-4ffc-930c-63df5c489e41",
+                "resourcePath": "views\\11d305f2-09ac-45d7-b8d3-bfbc23209d41.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2c11b2df-bbfa-4148-bd28-dd721aa594c4",
             "Value": {
                 "id": "9f9cf2e0-9fa6-47d4-aac1-bb70bdece911",
@@ -83,6 +91,14 @@
             "Value": {
                 "id": "8ed2ea16-e05a-491a-b1ea-197c08f8c88e",
                 "resourcePath": "views\\33b125fb-dd80-4670-9338-9fa4584d01b7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3a217133-a82e-4c42-ac67-44f123e83d59",
+            "Value": {
+                "id": "5d3c562e-9ac8-4147-8fe2-47f96a70d70f",
+                "resourcePath": "views\\3a217133-a82e-4c42-ac67-44f123e83d59.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "8c41618a-488f-4380-8356-982057e4ea94",
+            "Value": {
+                "id": "9b9dd132-3e53-4c25-a29a-51ead2dcf100",
+                "resourcePath": "sprites\\spr_UI_BatteryBar\\spr_UI_BatteryBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "94cc3d1b-ba4c-4215-afb2-485ab1d8444d",
             "Value": {
                 "id": "c55365e9-aec2-4372-96af-205ee282b177",
@@ -375,6 +399,22 @@
             }
         },
         {
+            "Key": "d2d5fbcb-1ca6-4a2c-ad66-b86808d1a6d7",
+            "Value": {
+                "id": "5b4250d2-a294-4071-a652-1638b707f4c8",
+                "resourcePath": "sprites\\spr_UI_Battery\\spr_UI_Battery.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ddcfca9b-9f6d-4e8c-ab62-f4e9c5029231",
+            "Value": {
+                "id": "cd52ca36-39ec-422a-b5fd-235ff06a6592",
+                "resourcePath": "sprites\\spr_UI_SteadinessBar\\spr_UI_SteadinessBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df476a01-f79a-4780-a0ff-3d36f24fa76d",
             "Value": {
                 "id": "5a79cc48-d6eb-42c3-9b3d-62fb7bc8b42f",
@@ -396,6 +436,14 @@
                 "id": "883eec23-c6f0-4401-ab49-a5ba9580da74",
                 "resourcePath": "views\\f0aecf49-7135-462c-93a1-0881e3456f82.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f3fe5658-9ebf-4b94-acb2-8df60c4acba3",
+            "Value": {
+                "id": "5d1a522b-a034-49b7-9b26-eb6a648f854d",
+                "resourcePath": "sprites\\spr_MSG_Mum\\spr_MSG_Mum.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
