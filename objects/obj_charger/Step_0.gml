@@ -35,8 +35,10 @@ x = lerp(x, obj_controllerCharger.x+inst.x, lerpVal)
 y = lerp(y, obj_controllerCharger.y+inst.y, lerpVal)
 //mp_potential_step_object(inst.x, inst.y, 10, obj_controller1);
 
-if (state == "steady"){
-	lerpVal = 0.05
-	x = lerp(x, obj_controllerCharger.x, lerpVal)
-	y = lerp(y, obj_controllerCharger.y, lerpVal)
+
+if (mouse_check_button(mb_left) && canPress){
+	y = y - 5;
+	canPress = false;
+	alarm_get(1)
 }
+

@@ -26,5 +26,3 @@ alarm_set(1, nextX)
 
 centerX = window_get_width()/2
 centerY = window_get_height()/2
-
-state = "normal";
