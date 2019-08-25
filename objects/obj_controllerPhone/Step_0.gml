@@ -8,10 +8,3 @@ x = clamp(x, 30, room_width - 30)
 y = clamp(y, 20, 50)
 
 
-if (state == "steady")
-{
-	gravVal = 0.01
-	maxSpeed = 0.5
-	wobbleTime = 300
-}
-
