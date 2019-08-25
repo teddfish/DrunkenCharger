@@ -3,14 +3,14 @@
 
 alarm_set(0, wobbleTime)
 
-targX = random_range(x - 10, x + 10);
+targX = random_range(ogx - 20, ogx + 20);
 //targY = random_range(y - 10, y + 10);
 
 if(isTop){
 	isTop = false;
-	targY = random_range(y-10, y)
+	targY = random_range(ogy-20, ogy)
 }
 else {
 	isTop = true;
-	targY = random_range(y, y+10)
+	targY = random_range(ogy, ogy+20)
 }

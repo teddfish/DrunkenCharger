@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "044bd720-28dd-4ce9-b975-4cfa93b7be3f",
+            "Value": {
+                "id": "f63dd7df-b132-4fe3-b0f1-57de61187d9c",
+                "resourcePath": "objects\\obj_UI_Control\\obj_UI_Control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06734e9b-1ed7-4055-9a3f-b14b85421e24",
             "Value": {
                 "id": "ccfa536f-86db-4523-8490-f4f153e5ca33",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "e3da4b65-01a3-4e1a-9c9e-e49dadf08233",
                 "resourcePath": "views\\0e669a48-0ae3-4fde-b8b7-2c37f07a7681.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "109860b9-7092-4640-b1c2-22020042b040",
+            "Value": {
+                "id": "ea687701-b1d1-426e-9872-1a5be89cb760",
+                "resourcePath": "views\\109860b9-7092-4640-b1c2-22020042b040.yy",
                 "resourceType": "GMFolder"
             }
         },
