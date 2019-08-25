@@ -4,15 +4,25 @@ gravity = max(gravVal, 0.01*point_distance(x, y, obj_controllerCharger.targetX, 
 vspeed= clamp(vspeed, -maxSpeed, maxSpeed)
 hspeed= clamp(hspeed, -maxSpeed, maxSpeed)
 
-if (mouse_check_button(mb_right)){
-	steady += 0.1
-	clamp(steady, 0, 1)
+if (keyboard_check(vk_lshift) && canSteady){
+	steady += 0.01
+	steady = clamp(steady, 0, 1)
+}
+else{
+	steady -= 0.02
+	steady = clamp(steady, 0, 1)
 }
 
-if (mouse_check_button_released(mb_right)){
-	steady -= 0.1
-	clamp(steady, 0, 1)
+if (steady >= 1){
+	steady -= 0.02
+	steady = clamp(steady, 0, 1)
+	canSteady = false;
 }
-if (steady == 1){
-	show_message("steady is 1")
+
+if (steady == 0){
+	canSteady = true;
 }
+
+maxSpeed = 1 - steady;
+
+show_debug_message(maxSpeed)

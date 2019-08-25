@@ -37,7 +37,7 @@ y = lerp(y, obj_controllerCharger.y+inst.y, lerpVal)
 
 
 if (mouse_check_button(mb_left) && canPress){
-	y = y - 5;
+	y = y - 7;
 	canPress = false;
 	alarm_get(1)
 }
