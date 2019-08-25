@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "630960cd-3839-4709-aff4-9c782f63a1df",
+            "Value": {
+                "id": "7d6df280-3680-4d91-8346-0477620520d2",
+                "resourcePath": "sprites\\spr_VFX_Success\\spr_VFX_Success.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "64edd1d6-f4f1-47fb-b0e6-78cc88fa0edb",
             "Value": {
                 "id": "5b8436d4-59fa-48e1-994b-a04c80f8128c",
