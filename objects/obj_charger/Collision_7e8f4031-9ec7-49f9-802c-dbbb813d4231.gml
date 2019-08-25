@@ -6,9 +6,10 @@ if (place_meeting(x, y, obj_winBox)){
 	
 }
 
-if (inContact && mouse_check_button(mb_left)){
+if (inContact && keyboard_check(vk_space)){
 	x = obj_winBox.x - 1
 	y = obj_winBox.y - 3
 	
-	
+	instance_create_depth(obj_winBox.x - 1, obj_winBox.y - 5, obj_charger, obj_fakeCharger)
+	instance_destroy(obj_charger)
 }
