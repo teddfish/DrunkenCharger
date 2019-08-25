@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "c2c6fb69-542c-4117-912a-39ad9dcea658",
+            "Value": {
+                "id": "d14d3d96-f738-4156-b280-94df7bc301c1",
+                "resourcePath": "objects\\obj_vfx_spark\\obj_vfx_spark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "dd88280b-a241-4ddd-93ed-7b87adecaa9f",
