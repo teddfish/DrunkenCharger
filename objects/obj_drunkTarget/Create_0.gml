@@ -6,3 +6,4 @@ gravity = gravVal
 maxSpeed = 1
 
 steady = 0;
+canSteady = true;
