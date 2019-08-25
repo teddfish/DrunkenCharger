@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "b472da6b-66b3-4775-bb93-c5e6f614c2ea",
+            "Value": {
+                "id": "81c89a4e-dbbc-4fe6-96b8-902495d62b95",
+                "resourcePath": "objects\\obj_messageController\\obj_messageController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc51dba7-39d9-42f2-8ab1-a90f34c8af74",
             "Value": {
                 "id": "2080a183-7b51-407d-a39c-54d2284ef1f4",
