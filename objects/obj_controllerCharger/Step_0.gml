@@ -1,18 +1,27 @@
-mouseH = (window_mouse_get_x() - centerX)/centerX
-mouseV = (window_mouse_get_y() - centerY)/centerY
-window_mouse_set(centerX, centerY);
+if(!controlDisabled)
+{
+	mouseH = (window_mouse_get_x() - centerX)/centerX
+	mouseV = (window_mouse_get_y() - centerY)/centerY
+	window_mouse_set(centerX, centerY);
 
-Hormove = gamepad_axis_value(0, gp_axislh)
-if(Hormove==0) Hormove = mouseH*mouseSensivity
-hmov = Hormove * mvSpd + randhmov;
-//x = x + hmov / inputDelay;
+	Hormove = gamepad_axis_value(0, gp_axislh)
+	if(Hormove==0) Hormove = mouseH*mouseSensivity
+	hmov = Hormove * mvSpd;
+	//x = x + hmov / inputDelay;
 
 
-Vermov =  gamepad_axis_value(0, gp_axislv)
-if(Vermov==0) Vermov =  mouseV*mouseSensivity
-vmov = Vermov * mvSpd + randvmov;
-//y = y + vmov / inputDelay;
-
+	Vermov =  gamepad_axis_value(0, gp_axislv)
+	if(Vermov==0) Vermov =  mouseV*mouseSensivity
+	vmov = Vermov * mvSpd;
+	//y = y + vmov / inputDelay;
+}
+else
+{
+	hmov = 0;
+	vmov = 0;
+	hspeed = 0
+	vspeed = 0
+}
 gravity_direction = 180/pi*arctan(-vmov/hmov)
 if (hmov<0) gravity_direction += 180
 

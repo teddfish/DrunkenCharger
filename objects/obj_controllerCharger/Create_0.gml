@@ -9,11 +9,12 @@ nextX = 60
 targetX = 0
 targetY = 0
 
-randvmov=0
-randhmov=0
+
 gamepad_set_axis_deadzone(0, 0.7);
 isGamepadConnected = (gamepad_get_device_count() > 0);
-mouseSensivity = 3
+mouseSensivity = 4
+controlDisabledTimeout = 15
+controlDisabled = false
 
 dragQ = 5;
 
