@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "5d2bd32e-0b20-4458-a137-c8464734a5db",
+            "Value": {
+                "id": "b34956bb-c516-4650-9cac-65ccd4f09c2b",
+                "resourcePath": "sprites\\spr_VFX_Spark\\spr_VFX_Spark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61418ddc-eb1e-49ab-9c0a-6b74a5f9bbd7",
             "Value": {
                 "id": "07ed21b8-16ce-4b21-89b8-ed5a3945c1db",
