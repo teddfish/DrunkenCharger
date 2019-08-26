@@ -7,3 +7,6 @@ maxSpeed = 1
 
 steady = 0;
 canSteady = true;
+steadyTimeOut = 60;
+
+usedSteady = 120;

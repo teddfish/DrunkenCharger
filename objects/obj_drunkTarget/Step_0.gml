@@ -4,25 +4,25 @@ gravity = max(gravVal, 0.01*point_distance(x, y, obj_controllerCharger.targetX, 
 vspeed= clamp(vspeed, -maxSpeed, maxSpeed)
 hspeed= clamp(hspeed, -maxSpeed, maxSpeed)
 
-if (keyboard_check(vk_lshift) || gamepad_button_check(0, gp_shoulderlb) && canSteady){
+
+if (steady <= 0.001 && alarm[1]==-1){
+	alarm_set(1, usedSteady)
+}
+
+if ((keyboard_check(vk_space) || gamepad_button_check(0, gp_face1)) && canSteady){
 	steady += 0.01
 	steady = clamp(steady, 0, 1)
-	
 }
 else{
 	steady -= 0.02
 	steady = clamp(steady, 0, 1)
 }
 
-if (steady >= 1){
-	steady -= 0.02
-	steady = clamp(steady, 0, 1)
-	canSteady = false;
+if (steady >= 0.95 and alarm[0]==-1){
+	
+	alarm_set(0, steadyTimeOut)
 }
 
-if (steady == 0){
-	canSteady = true;
-}
 
 maxSpeed = 1 - steady;
 

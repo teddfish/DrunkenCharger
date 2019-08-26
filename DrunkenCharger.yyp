@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "72e4f87e-28e5-4aee-9c58-22139c72a699",
+            "Value": {
+                "id": "29e14dce-0650-4938-abec-cb9629816424",
+                "resourcePath": "sprites\\spr_phoneVibrator\\spr_phoneVibrator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74b53419-d289-40f9-91ee-16e18e2e11e8",
             "Value": {
                 "id": "0335000d-4006-478b-ad8d-9abec3274e49",
@@ -503,10 +511,26 @@
             }
         },
         {
+            "Key": "e01d964d-6a3a-4b97-b780-b69a7b233c60",
+            "Value": {
+                "id": "bd33d22c-d979-4d37-afe9-2b3fe7df9612",
+                "resourcePath": "objects\\obj_phoneVibrator\\obj_phoneVibrator.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e19ccd4a-c7bf-462d-ba97-c59bcddcba46",
             "Value": {
                 "id": "37e66f4a-3ddf-4c14-9e90-ccddf0469e51",
                 "resourcePath": "rooms\\rm_titleScreen\\rm_titleScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e5d11107-18b8-43d3-a311-32a8bbc94aae",
+            "Value": {
+                "id": "fe3c2207-08f2-4a04-b1ee-88f033abf303",
+                "resourcePath": "rooms\\rm_level1\\rm_level1.yy",
                 "resourceType": "GMRoom"
             }
         },

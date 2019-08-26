@@ -11,4 +11,3 @@ ogy = y
 wobbleTime = 150
 alarm_set(0, 1)
 isTop = false;
-

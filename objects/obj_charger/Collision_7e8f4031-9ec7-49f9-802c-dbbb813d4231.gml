@@ -6,7 +6,7 @@ if (place_meeting(x, y, obj_winBox)){
 	
 }
 
-if (inContact && keyboard_check(vk_space)){
+if (inContact){
 	x = obj_winBox.x - 1
 	y = obj_winBox.y - 3
 
