@@ -9,3 +9,4 @@ y = clamp(y, 20, 50)
 
 
 steady = obj_drunkTarget.steady;
+maxSpeed = 1 - steady*0.5;

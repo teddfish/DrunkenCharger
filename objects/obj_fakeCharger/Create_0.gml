@@ -1,0 +1,1 @@
+instance_create_depth(x,y-2, -99, obj_vfx_sucess)
