@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "7d176e35-60f4-48aa-8864-36c5d3bc3de7",
+            "Value": {
+                "id": "bc60b008-efa7-464d-b15a-01c68395b1f6",
+                "resourcePath": "sprites\\spr_WinScreen\\spr_WinScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8570aa2a-d53a-46bf-92b1-1360edff913a",
             "Value": {
                 "id": "706a6a13-5d32-4ed7-a1a4-ccf194768a7f",
@@ -412,6 +420,14 @@
                 "id": "11e54193-a5ea-4664-94c6-f5719f904d93",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b28374e7-9adb-4707-9280-d59d5a5aa836",
+            "Value": {
+                "id": "5121c7c4-9c5b-4ff3-aaa8-846d03b52c93",
+                "resourcePath": "objects\\obj_WinScreenText\\obj_WinScreenText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
