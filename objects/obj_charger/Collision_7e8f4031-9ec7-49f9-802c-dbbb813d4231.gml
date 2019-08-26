@@ -6,7 +6,7 @@ if (place_meeting(x, y, obj_winBox)){
 	
 }
 
-if (inContact){
+if (inContact && !obj_controllerCharger.controlDisabled){
 	x = obj_winBox.x - 1
 	y = obj_winBox.y - 3
 

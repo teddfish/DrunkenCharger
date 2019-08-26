@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "3cb3c63d-c4de-4e52-a292-05526b497d31",
+            "Value": {
+                "id": "3ddc2346-14d5-4143-82d2-4230287261a1",
+                "resourcePath": "sprites\\spr_UI_Level\\spr_UI_Level.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d1debcb-b9d8-47bf-a5c6-1cac7c5aecef",
             "Value": {
                 "id": "32bf974c-2e18-44b1-95dc-2509b5e435ce",
@@ -212,6 +220,14 @@
                 "id": "386f5967-2980-4cff-b2a7-c327e3626eb7",
                 "resourcePath": "views\\44b412a1-cbf9-4efa-83ff-df4052ad02f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "44f3cfe8-a77e-4fb1-9c30-0da0f12172c7",
+            "Value": {
+                "id": "7f8f2c0f-164c-4af1-b00a-1f1141b639d6",
+                "resourcePath": "sprites\\spr_Lose\\spr_Lose.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -340,6 +356,14 @@
                 "id": "2413596f-b285-46f4-9e74-33d69fca40db",
                 "resourcePath": "sounds\\sound_chargescream\\sound_chargescream.yy",
                 "resourceType": "GMSound"
+			}
+		}
+		{
+            "Key": "7d176e35-60f4-48aa-8864-36c5d3bc3de7",
+            "Value": {
+                "id": "bc60b008-efa7-464d-b15a-01c68395b1f6",
+                "resourcePath": "sprites\\spr_WinScreen\\spr_WinScreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -444,6 +468,14 @@
                 "id": "11e54193-a5ea-4664-94c6-f5719f904d93",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b28374e7-9adb-4707-9280-d59d5a5aa836",
+            "Value": {
+                "id": "5121c7c4-9c5b-4ff3-aaa8-846d03b52c93",
+                "resourcePath": "objects\\obj_WinScreenText\\obj_WinScreenText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -676,6 +708,22 @@
                 "id": "7301c7cd-1d30-403f-8a62-bc2a9d8eacbc",
                 "resourcePath": "views\\f5685121-7aaa-40ba-8d97-0984754068ca.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f82e2005-23ca-4972-abb2-13e81da48dc4",
+            "Value": {
+                "id": "4afcf82c-0d96-47db-b9c3-9d42a3491462",
+                "resourcePath": "sprites\\spr_Win\\spr_Win.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8488040-471c-4455-a888-5196166d02fc",
+            "Value": {
+                "id": "9d87e05c-52c3-438b-b566-82164d5318a3",
+                "resourcePath": "sprites\\spr_Call\\spr_Call.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
