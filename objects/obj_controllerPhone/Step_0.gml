@@ -8,7 +8,7 @@ x = clamp(x, 30, room_width - 30)
 y = clamp(y, 20, 50)
 
 
-if (keyboard_check(vk_lshift) && canSteady){
+if (keyboard_check(vk_lshift) || gamepad_button_check(0, gp_shoulderlb) && canSteady){
 	steady += 0.01
 	steady = clamp(steady, 0, 1)
 }

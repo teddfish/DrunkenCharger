@@ -36,7 +36,7 @@ y = lerp(y, obj_controllerCharger.y+inst.y, lerpVal)
 //mp_potential_step_object(inst.x, inst.y, 10, obj_controller1);
 
 
-if (keyboard_check_pressed(vk_space) && canPress){
+if (keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_shoulderrb) && canPress){
 	y = y - 7;
 	canPress = false;
 	alarm_get(1)
