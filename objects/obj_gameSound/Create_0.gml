@@ -1,0 +1,3 @@
+audio_group_load(audiogroup_bgmusic)
+audio_group_load(audiogroup_soundeffects)
+

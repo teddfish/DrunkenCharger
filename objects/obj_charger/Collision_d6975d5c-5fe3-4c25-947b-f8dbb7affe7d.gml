@@ -3,6 +3,7 @@ if(!obj_controllerCharger.controlDisabled)
 
 if (place_meeting(x, y, obj_phone))
 { 
+
 	obj_controllerCharger.y = obj_phone.y + 130;
 	obj_controllerCharger.controlDisabled = true;
 	alarm_set(11, obj_controllerCharger.controlDisabledTimeout);

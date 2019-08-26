@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "2bea90d1-72c7-4a91-ba34-a1503995969f",
+            "Value": {
+                "id": "92736e97-fc5e-4e4f-8c38-ddd0a9a17aab",
+                "resourcePath": "objects\\obj_gameSound\\obj_gameSound.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c11b2df-bbfa-4148-bd28-dd721aa594c4",
             "Value": {
                 "id": "9f9cf2e0-9fa6-47d4-aac1-bb70bdece911",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "3906dbd6-3401-4e05-ad88-3ca8a483ecbb",
+            "Value": {
+                "id": "663c05d9-0bc1-4de0-9036-ca9ce13a55f8",
+                "resourcePath": "sounds\\sound_bg\\sound_bg.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3a217133-a82e-4c42-ac67-44f123e83d59",
             "Value": {
                 "id": "5d3c562e-9ac8-4147-8fe2-47f96a70d70f",
@@ -188,6 +204,14 @@
                 "id": "b909c7e0-6680-4122-b21b-de65c4046c68",
                 "resourcePath": "views\\4084c4e3-53bb-43b0-a478-0c51ed030be7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "421f6f46-b4ce-427b-bf7d-b5dddbd84e15",
+            "Value": {
+                "id": "691ba0c4-5f9e-4818-b216-e39cb9db9f39",
+                "resourcePath": "sounds\\sound_chargebleep\\sound_chargebleep.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -327,6 +351,14 @@
             }
         },
         {
+            "Key": "7f3cb468-9be4-4f50-a95d-73c46b93a172",
+            "Value": {
+                "id": "2413596f-b285-46f4-9e74-33d69fca40db",
+                "resourcePath": "sounds\\sound_chargescream\\sound_chargescream.yy",
+                "resourceType": "GMSound"
+			}
+		},
+		{
             "Key": "7d176e35-60f4-48aa-8864-36c5d3bc3de7",
             "Value": {
                 "id": "bc60b008-efa7-464d-b15a-01c68395b1f6",
@@ -364,6 +396,14 @@
                 "id": "7f747f08-dbc8-403b-9427-edca5c1a240d",
                 "resourcePath": "sprites\\spr_charger\\spr_charger.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ae2ab94-6478-4aa4-ac6a-e3cf38f040f1",
+            "Value": {
+                "id": "b063ffde-6950-45ac-bf99-ddaa9796ec36",
+                "resourcePath": "sounds\\sound_clash\\sound_clash.yy",
+                "resourceType": "GMSound"
             }
         },
         {
