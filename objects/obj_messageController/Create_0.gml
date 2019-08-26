@@ -3,10 +3,12 @@ msgCleared = 0
 top = 39
 
 icons = 0
-iconBlinkTime=7
+iconBlinkTime=30
 
 timeToNextMsg = random_range(100,200)
 alarm_set(0,timeToNextMsg)
+
+counter = 0
 
 
 //for(i=sprite_get_number(spr_MSG_Mum)-1; i>=0; i-=1)
