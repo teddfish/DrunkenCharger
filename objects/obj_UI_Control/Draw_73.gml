@@ -1,6 +1,11 @@
 draw_sprite(spr_UI_Battery,0 , room_width, 0)
 draw_self()
 draw_sprite(spr_UI_LabelSteady,0 , room_width/2, room_height-2)
+if(room>0 && room <4)
+	draw_sprite(spr_UI_Level,room-1 , 0, 0)
+
+
+
 
 image_xscale = clamp(batteryLeft/100, 0, 1)
 if(instance_exists(obj_charger))

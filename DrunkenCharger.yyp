@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "3cb3c63d-c4de-4e52-a292-05526b497d31",
+            "Value": {
+                "id": "3ddc2346-14d5-4143-82d2-4230287261a1",
+                "resourcePath": "sprites\\spr_UI_Level\\spr_UI_Level.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d1debcb-b9d8-47bf-a5c6-1cac7c5aecef",
             "Value": {
                 "id": "32bf974c-2e18-44b1-95dc-2509b5e435ce",
