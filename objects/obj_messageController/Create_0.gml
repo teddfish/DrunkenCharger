@@ -5,7 +5,7 @@ top = 39
 icons = 0
 iconBlinkTime=30
 
-isCalling=false
+calling = false
 
 timeToNextMsg = random_range(100,200)
 alarm_set(0,timeToNextMsg)

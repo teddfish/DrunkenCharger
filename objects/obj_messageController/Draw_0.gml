@@ -17,3 +17,9 @@ if(msgReceived - msgCleared >=6)
 
 if(counter%(iconBlinkTime)<=(iconBlinkTime/2))
 	draw_sprite_stretched(spr_UI_BatteryBar,0 , obj_phone.x + 22, obj_phone.y-top-6, 1,2)
+	
+if(calling){
+	draw_sprite(spr_Call, 1, obj_phone.x, obj_phone.y);
+	if((counter+5)%(iconBlinkTime*2)>=(iconBlinkTime))
+		draw_sprite(spr_Call, 0, obj_phone.x, obj_phone.y);
+}
