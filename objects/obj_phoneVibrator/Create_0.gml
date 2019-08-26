@@ -1,13 +1,15 @@
+x = 0
+maxSpeed = 0.2
 
-gravVal = 0.02
-gravity = gravVal
-maxSpeed = 1
+wobbleTime = 4
+alarm_set(0, wobbleTime)
+isRight = false;
+wobbleStrength = 3
 
-targX = x
-targY = y
-ogx = x
-ogy = y
+posX = x-wobbleStrength
+posXX = x+wobbleStrength
 
-wobbleTime = 150
-alarm_set(0, 1)
-isTop = false;
+vibrate = 60;
+stopVibrate = 300;
+isVibrating = false;
+alarm_set(1, vibrate)
