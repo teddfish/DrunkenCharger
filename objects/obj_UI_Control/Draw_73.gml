@@ -16,8 +16,8 @@ draw_sprite_stretched(spr_UI_SteadinessBar,0 , (room_width-stdBarWidth)/2, room_
 
 
 if(batteryLeft<=0){
-	draw_sprite(spr_Lose,0 , 0, sin(delta_time/10000*floatSpeed))
+	draw_sprite(spr_Lose,0 , 0, 2*sin(obj_messageController.counter*floatSpeed))
 }
 else if(instance_exists(obj_fakeCharger)){
-	draw_sprite(spr_Win,0 , 0, sin(delta_time/10000*floatSpeed))
+	draw_sprite(spr_Win,0 , 0, 2*sin(obj_messageController.counter*floatSpeed))
 }

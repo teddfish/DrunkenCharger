@@ -3,4 +3,4 @@ y = 5
 batteryLeft = 30
 drainSpeed = 0.02
 
-floatSpeed = 0.1
+floatSpeed = 0.05
