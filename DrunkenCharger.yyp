@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "765077c1-2084-4ed6-bdcb-9ca59634a56e",
+            "Value": {
+                "id": "966e1a44-0b1e-43a2-9c98-1d2c02ce3adb",
+                "resourcePath": "objects\\obj_phoneVibrator2\\obj_phoneVibrator2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "79747a65-c729-42e2-8c73-18e095646310",
             "Value": {
                 "id": "cb669f7e-c39f-4a8d-b779-b70296c4eb70",
@@ -644,6 +652,14 @@
                 "id": "468b8e65-b356-4b23-8866-b2c03cc06a5d",
                 "resourcePath": "views\\fb391239-8435-4a3f-aa6b-e764557803b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd4c1dc8-1ba0-4c09-9f41-a48058bbebeb",
+            "Value": {
+                "id": "010e7b83-0d13-4879-9824-4ee2a51e6ae7",
+                "resourcePath": "sprites\\spr_phoneVibrator2\\spr_phoneVibrator2.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
