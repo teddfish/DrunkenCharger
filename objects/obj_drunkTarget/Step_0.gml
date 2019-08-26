@@ -16,6 +16,12 @@ if ((keyboard_check(vk_space) || gamepad_button_check(0, gp_face1)) && canSteady
 else{
 	steady -= 0.02
 	steady = clamp(steady, 0, 1)
+	if(alarm[0]!=-1)//if you released steady button after reaching full steadiness(ie alarm 0 is running
+		{
+			alarm_set(0,-1)
+			canSteady = false
+			steady = 0
+		}
 }
 
 if (steady >= 0.95 and alarm[0]==-1){
