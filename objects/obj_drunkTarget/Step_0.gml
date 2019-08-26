@@ -25,4 +25,4 @@ if (steady == 0){
 
 maxSpeed = 1 - steady;
 
-show_debug_message(maxSpeed)
+//show_debug_message(maxSpeed)
